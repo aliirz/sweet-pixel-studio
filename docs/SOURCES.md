@@ -51,7 +51,7 @@ Copied into `web/assets/`:
 | `people/*.svg` | The seven portraits on the 2017 About page |
 | `mark/studio-logo.png` | 2017 About page `Sweet-Pixel-Studio-Indie-Games-Developer-Logo.png` |
 
-Johnny Ace has no thumbnail in the 2014 repository or on the 2017 site. A Punkbusters image exists in the 2017 asset folder and never had a page. It is not on the wall. Sweet-Deadpool.svg, Playstation-Icons.png, the Mailchimp form, analytics, and font files stay out.
+`games/johnny-ace.svg` is the 2015 landing-page file `Johnny Ace_Icon.svg` from SweetPixel/SPS-Game-Website. Ali asked for that card only. Punkbusters stays off the wall, and Askari stays off the roll call. Sweet-Deadpool.svg, Playstation-Icons.png, the Mailchimp form, analytics, and font files stay out.
 
 ## Johnny Ace
 

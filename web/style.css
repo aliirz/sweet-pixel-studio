@@ -391,6 +391,13 @@ footer a { min-height: 44px; display: inline-flex; align-items: center; }
   z-index: 1;
   animation: drift 8s ease-in-out infinite alternate;
 }
+.johnny-ace .game-art { min-height: 0; }
+.johnny-ace .game-art.has-art img {
+  width: auto;
+  height: 78%;
+  max-width: 88%;
+  justify-self: center;
+}
 .game-art.has-art:after { opacity: 0.12; }
 @media (min-width: 800px) {
   html { scroll-padding-top: 84px; }

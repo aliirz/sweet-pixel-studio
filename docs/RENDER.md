@@ -32,7 +32,7 @@ The homepage title is SWEET PIXEL STUDIO. The studio shut down in 2014. Render `
 
 When a wall entry has `memory`, render it above `summary`. Boom and Johnny Ace have no memory. Credits stay a quiet roll call: short name and role only, with no story sentence.
 
-Render `thumbnail.src` and `thumbnail.alt` on a wall card when `thumbnail` is an object. Copy the file from `web/` into the build. Do not hotlink. Johnny Ace has no thumbnail, so that card keeps the geometric stand-in.
+Render `thumbnail.src` and `thumbnail.alt` on a wall card when `thumbnail` is an object. Copy the file from `web/` into the build. Do not hotlink. Johnny Ace uses the 2015 landing-page icon.
 
 Render `portrait.src` beside a credit when `portrait` is an object. Each of the seven credits has an About-page portrait.
 

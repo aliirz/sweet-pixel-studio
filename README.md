@@ -40,7 +40,7 @@ npm test
 npm run preview
 ```
 
-Open `http://localhost:4173`. `npm run build` generates `dist/index.html`, `dist/style.css`, and `dist/assets/` from the catalog and `web/`. The site is static: no client JavaScript, remote fonts, embedded video, analytics or automatic network requests. External destinations load only when their links are followed. Game cards use the original thumbnails. Johnny Ace still has the geometric stand-in, because no thumbnail survived in the archive.
+Open `http://localhost:4173`. `npm run build` generates `dist/index.html`, `dist/style.css`, and `dist/assets/` from the catalog and `web/`. The site is static: no client JavaScript, remote fonts, embedded video, analytics or automatic network requests. External destinations load only when their links are followed. Game cards use the original thumbnails. Johnny Ace uses the 2015 landing-page icon.
 
 The offline suite checks the actual generated HTML: wall order/uniqueness, exact credit names and roles, allowed game and trailer links, hidden store IDs, catalogued platform labels, studio blurb and quote, preservation scope and navigation. Network observations do not enter the build. Pixel Fall gameplay and tests remain deferred.
 

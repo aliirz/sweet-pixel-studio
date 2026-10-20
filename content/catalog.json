@@ -30,7 +30,7 @@
     "hero_kicker": "SHUT DOWN IN 2014",
     "hero_footer": "THE TEAM DISBANDED",
     "story_source": "Ali in gamedev on 2026-10-20. He gave the shutdown year and the three game memories. He did not give a start year or a city. Boom and Johnny Ace have no memory line. The lemonade quote stays. The roll call stays quiet. Later that day he asked to remove Sayyam and mubasher. That second name is read as Mubassir Hayat, the 2014 website credit. Mubbasher Khanzada stays.",
-    "art_caption": "Original artwork from the studio sites. Johnny Ace has no surviving thumbnail in the archive.",
+    "art_caption": "Original artwork from the studio sites. The Johnny Ace picture is the 2015 landing-page icon.",
     "mark": {
       "src": "assets/mark/studio-logo.png",
       "alt": ""
@@ -241,7 +241,11 @@
       "id": "johnny-ace",
       "name": "Johnny Ace",
       "summary": "iPhone and iPad game by Sweet Pixel Studios. The store listing title is Johnny Ace: The Hilarious, Intense & Deadly.",
-      "thumbnail": null,
+      "thumbnail": {
+        "src": "assets/games/johnny-ace.svg",
+        "alt": "Johnny Ace icon",
+        "provenance": "2015 landing page file Johnny Ace_Icon.svg in SweetPixel/SPS-Game-Website. Ali asked for this card only. Punkbusters and Askari stay off."
+      },
       "on_2018_homepage": false,
       "platforms": [
         "iPhone",
@@ -385,7 +389,7 @@
     "show_link_when": "live_button is true",
     "hide_stores_when": "live_button is false",
     "credits_render": "All seven About-page credits, short name and role, in catalog order. Sayyam and Mubassir Hayat stay off the public page. Johnny Ace is not a credit. Render portrait.src for each of the seven portraits.",
-    "thumbnails": "Render wall thumbnail.src and thumbnail.alt when thumbnail is an object. Paths stay under assets/ and are copied into the build. Do not hotlink. Johnny Ace's thumbnail is null.",
+    "thumbnails": "Render wall thumbnail.src and thumbnail.alt when thumbnail is an object. Paths stay under assets/ and are copied into the build. Do not hotlink. Johnny Ace uses the 2015 landing-page icon.",
     "voice": "The studio shut down in 2014. Render status_line, archive_heading, hero_kicker, hero_footer, and art_caption. Render wall memory when it is set, and still render summary. Boom and Johnny Ace have no memory. Do not render the hiring invitation. Credits stay a quiet roll call: short name and role only.",
     "network_file": "content/network-observations.json",
     "network_must_not_fail_the_build": true
