@@ -1,6 +1,6 @@
 # Render contract
 
-Read `content/catalog.json`. Do not invent a sixth wall game or a tenth credit.
+Read `content/catalog.json`. Do not invent a sixth wall game or an eighth credit.
 
 ## Game wall
 
@@ -22,9 +22,9 @@ Render a link only when `live_button` is true.
 
 ## Credits
 
-Render all nine credits: each `short` name and `role`, in catalog order. That includes Sayyam and Mubassir Hayat. Fuller names and filenames are provenance.
+Render all seven credits: each `short` name and `role`, in catalog order. Those are the About-page names. Fuller names and filenames are provenance.
 
-Johnny Ace is the fifth game card. Do not also render that name as a person. The withheld list is empty.
+Johnny Ace is the fifth game card. Do not also render that name as a person. Sayyam and Mubassir Hayat are in `withheld`. Do not render either name. Mubbasher Khanzada stays.
 
 ## Page
 
@@ -34,7 +34,7 @@ When a wall entry has `memory`, render it above `summary`. Boom and Johnny Ace h
 
 Render `thumbnail.src` and `thumbnail.alt` on a wall card when `thumbnail` is an object. Copy the file from `web/` into the build. Do not hotlink. Johnny Ace has no thumbnail, so that card keeps the geometric stand-in.
 
-Render `portrait.src` beside a credit when `portrait` is an object. Seven About-page portraits exist. Sayyam and Mubassir Hayat have none.
+Render `portrait.src` beside a credit when `portrait` is an object. Each of the seven credits has an About-page portrait.
 
 Do not add a playable game, a Mailchimp action, or a Google Analytics snippet. Leave out Sweet-Deadpool.svg, Playstation-Icons.png, and the rest of the sticker sheet. The empty press-kit anchors stay off. The commented Honest Game Trailers embed stays off.
 

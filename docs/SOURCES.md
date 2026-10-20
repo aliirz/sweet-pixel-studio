@@ -8,7 +8,7 @@ Repository: https://github.com/aliirz/SweetPixelStudios
 
 Commit `d7bb3f727126966ab279b1e24aecc1318c989a85`, 2014-11-29, message "building". Homepage field `http://www.sweetpixelstudios.com`. The page title is "Sweet Pixel Studios". The holding page links Pixel Fall to `com.sps.pxelfall` and App Store id `905884027`. The iTunes slug is `pixelfall-arcade-dodging-game`.
 
-The README names Ali Raza, Mubassir Hayat, and Sayyam. Ali asked on 2026-10-20 that nobody stay off the tribute. Sayyam and Mubassir Hayat are credits. The README gives them no job title, so the role line is "2014 website". The linked GitHub profile for Sayyam is named Malik Sayyam. Mubassir Hayat stays distinct from Mubbasher Khanzada.
+The README names Ali Raza, Mubassir Hayat, and Sayyam. The linked GitHub profile for Sayyam is named Malik Sayyam. Mubassir Hayat stays distinct from Mubbasher Khanzada. Ali first asked that nobody stay off the tribute, then later the same day asked to remove Sayyam and mubasher. The public page drops Sayyam and Mubassir Hayat. Mubbasher Khanzada, biz dev on the About page, stays. The README itself is unchanged.
 
 ## Later site
 
