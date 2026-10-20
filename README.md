@@ -42,6 +42,6 @@ npm run preview
 
 Open `http://localhost:4173`. `npm run build` generates `dist/index.html` and `dist/style.css` from the catalog and `web/style.css`. The site is static: no client JavaScript, remote fonts, embedded video, analytics or automatic network requests. External destinations load only when their links are followed. Graphic studies are new CSS shapes, not recovered game art.
 
-The offline suite checks the actual generated HTML: wall order/uniqueness, exact credit names and roles, allowed game and trailer links, hidden store IDs, preservation scope and navigation. Network observations do not enter the build. Pixel Fall gameplay and tests remain deferred.
+The offline suite checks the actual generated HTML: wall order/uniqueness, exact credit names and roles, allowed game and trailer links, hidden store IDs, catalogued platform labels, studio blurb and quote, preservation scope and navigation. Network observations do not enter the build. Pixel Fall gameplay and tests remain deferred.
 
 For visual acceptance, check at 390px and 1280px: headings, wall cards and credit rows fit without horizontal scrolling; navigation and every external link are usable by keyboard; the separate trailer row does not look like additional wall games. Hosting preview is private and does not replace the historic domain.

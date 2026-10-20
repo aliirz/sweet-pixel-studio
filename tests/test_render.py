@@ -83,10 +83,22 @@ class TributeTests(unittest.TestCase):
         self.assertEqual([n.attrs['href'] for n in links],[t['url'] for t in self.catalog['trailers'] if t['live_button']])
         self.assertNotIn('Shootman Runner', self.section('game-wall').text())
         self.assertNotIn('Zama Truck', self.section('game-wall').text())
+    def test_platform_labels_only_when_catalogued(self):
+        for game in self.catalog['wall']:
+            article = next(n for n in self.page.all('article') if n.attrs.get('data-game') == game['id'])
+            labels = [n.text() for n in article.all('span') if n.attrs.get('class') == 'platform']
+            self.assertEqual(labels, [' · '.join(game['platforms'])] if game['platforms'] else [])
+
+    def test_studio_blurb_and_quote_preserved(self):
+        archive = self.section('archive')
+        self.assertIn(self.catalog['studio']['blurb'], archive.all('blockquote')[0].text())
+        quotes = [n.text() for n in archive.all('p') if n.attrs.get('class') == 'quote']
+        self.assertEqual(quotes, [self.catalog['studio']['quote']])
+
     def test_title_and_preservation_scope(self):
         self.assertTrue(self.page.all('title')[0].text().startswith('SWEET PIXEL STUDIO'))
         title = self.section('title').text().replace('✳','')
-        self.assertEqual(title, 'SWEETPIXEL STUDIO')
+        self.assertEqual(title, 'SWEET PIXEL STUDIO')
         for tag in ['script','iframe','form','canvas','audio','video','img']:
             self.assertEqual(self.page.all(tag), [], tag)
         for banned in ['mailchimp','google-analytics','googletagmanager','play now','play pixel fall','press kit']:
