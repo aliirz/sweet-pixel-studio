@@ -29,7 +29,7 @@
     "archive_heading": "End of the beginning.",
     "hero_kicker": "SHUT DOWN IN 2014",
     "hero_footer": "THE TEAM DISBANDED",
-    "story_source": "Ali in gamedev on 2026-10-20. He gave the shutdown year and the three game memories. He did not give a start year or a city. Boom and Johnny Ace have no memory line. The lemonade quote stays. The nine credits stay a quiet roll call.",
+    "story_source": "Ali in gamedev on 2026-10-20. He gave the shutdown year and the three game memories. He did not give a start year or a city. Boom and Johnny Ace have no memory line. The lemonade quote stays. The roll call stays quiet. Later that day he asked to remove Sayyam and mubasher. That second name is read as Mubassir Hayat, the 2014 website credit. Mubbasher Khanzada stays.",
     "art_caption": "Original artwork from the studio sites. Johnny Ace has no surviving thumbnail in the archive.",
     "mark": {
       "src": "assets/mark/studio-logo.png",
@@ -346,27 +346,20 @@
         "src": "assets/people/imran.svg",
         "provenance": "2017 About page file Engineer-Sweet-Pixel-Studio.svg"
       }
-    },
-    {
-      "short": "SAYYAM",
-      "role": "2014 website",
-      "fuller_name": "Malik Sayyam",
-      "filename_role": null,
-      "filename": null,
-      "portrait": null,
-      "source": "Named Sayyam in the 2014 README, which links github.com/mmsayyam. That profile name is Malik Sayyam. The 2017 About page did not print a role."
-    },
-    {
-      "short": "MUBASSIR",
-      "role": "2014 website",
-      "fuller_name": "Mubassir Hayat",
-      "filename_role": null,
-      "filename": null,
-      "portrait": null,
-      "source": "Named in the 2014 README, which links github.com/mubassirhayat. Distinct from Mubbasher Khanzada. The 2017 About page did not print a role."
     }
   ],
-  "withheld": [],
+  "withheld": [
+    {
+      "name": "SAYYAM",
+      "fuller_name": "Malik Sayyam",
+      "reason": "Ali asked on 2026-10-20 to remove Sayyam from the public roll call. The 2014 README still names him."
+    },
+    {
+      "name": "MUBASSIR",
+      "fuller_name": "Mubassir Hayat",
+      "reason": "Ali asked to remove Sayyam and mubasher. The name next to Sayyam is read as Mubassir Hayat, the 2014 website credit. Mubbasher Khanzada stays on the About-page roll call. The 2014 README still names Mubassir Hayat."
+    }
+  ],
   "do_not_copy": [
     "Mailchimp subscribe form from the 2017 homepage",
     "Google Analytics snippets from the 2014 and 2017 pages",
@@ -391,7 +384,7 @@
     ],
     "show_link_when": "live_button is true",
     "hide_stores_when": "live_button is false",
-    "credits_render": "All nine credits, short name and role, in catalog order. Sayyam and Mubassir Hayat are included. Johnny Ace is not a credit. Render portrait.src for the seven About-page portraits. Sayyam and Mubassir have none.",
+    "credits_render": "All seven About-page credits, short name and role, in catalog order. Sayyam and Mubassir Hayat stay off the public page. Johnny Ace is not a credit. Render portrait.src for each of the seven portraits.",
     "thumbnails": "Render wall thumbnail.src and thumbnail.alt when thumbnail is an object. Paths stay under assets/ and are copied into the build. Do not hotlink. Johnny Ace's thumbnail is null.",
     "voice": "The studio shut down in 2014. Render status_line, archive_heading, hero_kicker, hero_footer, and art_caption. Render wall memory when it is set, and still render summary. Boom and Johnny Ace have no memory. Do not render the hiring invitation. Credits stay a quiet roll call: short name and role only.",
     "network_file": "content/network-observations.json",

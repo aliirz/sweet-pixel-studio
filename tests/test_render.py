@@ -74,7 +74,7 @@ class TributeTests(unittest.TestCase):
     def test_exact_credit_names_and_roles(self):
         rows = self.section('credit-wall').all('li')
         pairs = [(row.all('h3')[0].text(),row.all('p')[0].text()) for row in rows]
-        self.assertEqual(pairs, [('USMAN','creative guru'),('MAT','3d wizard'),('ALI','back-end specialist'),('MUBBASHER','biz dev'),('HASEEB','mr. artist'),('SHAH','game engineer'),('IMRAN','jnr engineer'),('SAYYAM','2014 website'),('MUBASSIR','2014 website')])
+        self.assertEqual(pairs, [('USMAN','creative guru'),('MAT','3d wizard'),('ALI','back-end specialist'),('MUBBASHER','biz dev'),('HASEEB','mr. artist'),('SHAH','game engineer'),('IMRAN','jnr engineer')])
         for row in rows:
             self.assertEqual(len(row.all('p')), 1)
         self.assertNotIn('Johnny Ace', self.section('credit-wall').text())
