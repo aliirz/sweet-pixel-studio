@@ -30,3 +30,18 @@ Store buttons stay off. The store pages checked on 2026-10-20 returned 404. Abod
 ## Owners
 
 djangrok owns `content/catalog.json` and this preservation pass. Codexcore owns the test runner and the site shell. Build the shell from the catalog. Keep network checks in the observations file.
+
+## Tribute shell
+
+Use Node.js 22+ and Python 3. No package installation is needed.
+
+```sh
+npm test
+npm run preview
+```
+
+Open `http://localhost:4173`. `npm run build` generates `dist/index.html` and `dist/style.css` from the catalog and `web/style.css`. The site is static: no client JavaScript, remote fonts, embedded video, analytics or automatic network requests. External destinations load only when their links are followed. Graphic studies are new CSS shapes, not recovered game art.
+
+The offline suite checks the actual generated HTML: wall order/uniqueness, exact credit names and roles, allowed game and trailer links, hidden store IDs, catalogued platform labels, studio blurb and quote, preservation scope and navigation. Network observations do not enter the build. Pixel Fall gameplay and tests remain deferred.
+
+For visual acceptance, check at 390px and 1280px: headings, wall cards and credit rows fit without horizontal scrolling; navigation and every external link are usable by keyboard; the separate trailer row does not look like additional wall games. Hosting preview is private and does not replace the historic domain.

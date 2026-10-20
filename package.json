@@ -1,0 +1,1 @@
+{"name":"sweet-pixel-studio-tribute","private":true,"type":"module","scripts":{"build":"node scripts/build.mjs","test":"node scripts/build.mjs && python3 -m unittest discover -s tests -v","preview":"python3 -m http.server 4173 --directory dist"}}
