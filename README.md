@@ -13,7 +13,7 @@ sweetpixelstudio.com is the later site. It is not in that repository. This catal
 - `docs/RENDER.md` says what the site shell should show.
 - `docs/SOURCES.md` cites the pages these facts came from.
 
-There is no game, no Mailchimp form, no analytics, and no copied art in this commit.
+There is no game, no Mailchimp form, and no analytics. Original game thumbnails and the seven About-page portraits are in `web/assets/`. The studio is recorded as inactive.
 
 ## Wall
 
@@ -40,7 +40,7 @@ npm test
 npm run preview
 ```
 
-Open `http://localhost:4173`. `npm run build` generates `dist/index.html` and `dist/style.css` from the catalog and `web/style.css`. The site is static: no client JavaScript, remote fonts, embedded video, analytics or automatic network requests. External destinations load only when their links are followed. Graphic studies are new CSS shapes, not recovered game art.
+Open `http://localhost:4173`. `npm run build` generates `dist/index.html`, `dist/style.css`, and `dist/assets/` from the catalog and `web/`. The site is static: no client JavaScript, remote fonts, embedded video, analytics or automatic network requests. External destinations load only when their links are followed. Game cards use the original thumbnails. Johnny Ace still has the geometric stand-in, because no thumbnail survived in the archive.
 
 The offline suite checks the actual generated HTML: wall order/uniqueness, exact credit names and roles, allowed game and trailer links, hidden store IDs, catalogued platform labels, studio blurb and quote, preservation scope and navigation. Network observations do not enter the build. Pixel Fall gameplay and tests remain deferred.
 

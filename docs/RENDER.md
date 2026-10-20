@@ -28,9 +28,13 @@ Johnny Ace is the fifth game card. Do not also render that name as a person. The
 
 ## Page
 
-The homepage title is SWEET PIXEL STUDIO. Use the studio blurb and the quote if a line of copy is needed.
+The homepage title is SWEET PIXEL STUDIO. The studio is inactive. Render `status_line`, `archive_heading`, `hero_footer`, and `art_caption` from the catalog. Keep the blurb and the quote as words the studio used then. Do not render the hiring invitation.
 
-Do not add a playable game, a Mailchimp action, a Google Analytics snippet, or sticker art from the old sites. The empty press-kit anchors stay off. The commented Honest Game Trailers embed stays off.
+Render `thumbnail.src` and `thumbnail.alt` on a wall card when `thumbnail` is an object. Copy the file from `web/` into the build. Do not hotlink. Johnny Ace has no thumbnail, so that card keeps the geometric stand-in.
+
+Render `portrait.src` beside a credit when `portrait` is an object. Seven About-page portraits exist. Sayyam and Mubassir Hayat have none.
+
+Do not add a playable game, a Mailchimp action, or a Google Analytics snippet. Leave out Sweet-Deadpool.svg, Playstation-Icons.png, and the rest of the sticker sheet. The empty press-kit anchors stay off. The commented Honest Game Trailers embed stays off.
 
 ## Checks
 

@@ -34,7 +34,20 @@ The Boom page names Android, iPad, and iPhone, and links `com.sps.boom` and App 
 
 The 2017 homepage posted a Mailchimp form and the 2014 and 2017 pages loaded Google Analytics. This catalog names that fact and does not copy the endpoints or the identifiers.
 
-Sticker art and font files from the captures are not part of this repository.
+On 2026-10-20 Ali asked the tribute to reuse the studio assets and the game thumbnails, and to speak in the past tense because the studio is not active.
+
+Copied into `web/assets/`:
+
+| File | Came from |
+| --- | --- |
+| `games/pixel-fall.png` | `pixel-fall-arcade-game-ios-android.png` in aliirz/SweetPixelStudios |
+| `games/abode.png` | The picture inside the 2017 homepage file `Abode-Horror-Adventure-Indie-Game-New.svg`. The visit-store lettering on that file is not included. |
+| `games/monster-jump.png` | 2017 homepage `MJ_Website_Title.png` |
+| `games/boom.png` | 2017 homepage `BOOM_Website.png` |
+| `people/*.svg` | The seven portraits on the 2017 About page |
+| `mark/studio-logo.png` | 2017 About page `Sweet-Pixel-Studio-Indie-Games-Developer-Logo.png` |
+
+Johnny Ace has no thumbnail in the 2014 repository or on the 2017 site. A Punkbusters image exists in the 2017 asset folder and never had a page. It is not on the wall. Sweet-Deadpool.svg, Playstation-Icons.png, the Mailchimp form, analytics, and font files stay out.
 
 ## Johnny Ace
 
