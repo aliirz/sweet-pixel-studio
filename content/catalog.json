@@ -23,6 +23,18 @@
     "blurb": "We are a small and scrappy clan of creative professionals coming from a broad range of experience and education who share one thing in common: Our sheer love for all things gaming.",
     "invitation": "Are you also someone who believes that games are an awesome medium to create breathtaking new experieces?",
     "quote": "WHEN LIFE GIVES YOU LEMONS, MAKE LEMONADE TYCOON",
+    "active": false,
+    "tense": "past",
+    "status_line": "Sweet Pixel Studio shut down in 2014. It was a great passion project that did not fan out. We had to move on to other work, and the team disbanded.",
+    "archive_heading": "End of the beginning.",
+    "hero_kicker": "SHUT DOWN IN 2014",
+    "hero_footer": "THE TEAM DISBANDED",
+    "story_source": "Ali in gamedev on 2026-10-20. He gave the shutdown year and the three game memories. He did not give a start year or a city. Boom and Johnny Ace have no memory line. The lemonade quote stays. The nine credits stay a quiet roll call.",
+    "art_caption": "Original artwork from the studio sites. Johnny Ace has no surviving thumbnail in the archive.",
+    "mark": {
+      "src": "assets/mark/studio-logo.png",
+      "alt": ""
+    },
     "contact": {
       "mailto": "hello@sweetpixelstudios.com",
       "visible_text_on_game_pages": "hello@sweetpixelstudio.com"
@@ -75,6 +87,12 @@
         "pixelfall"
       ],
       "summary": "An arcade dodging game for iOS and Android.",
+      "memory": "Our first game. Building it and launching it was a magical experience.",
+      "thumbnail": {
+        "src": "assets/games/pixel-fall.png",
+        "alt": "Pixel Fall title artwork",
+        "provenance": "2014 archive file pixel-fall-arcade-game-ios-android.png in aliirz/SweetPixelStudios"
+      },
       "on_2018_homepage": false,
       "platforms": [
         "Android",
@@ -110,6 +128,12 @@
       "id": "abode",
       "name": "Abode",
       "summary": "Horror adventure. The 2017 navigation called it Our Game.",
+      "memory": "Ali wrote the story during a class. The team spent 48 hours finishing it and slept in the office.",
+      "thumbnail": {
+        "src": "assets/games/abode.png",
+        "alt": "Abode horror adventure artwork",
+        "provenance": "Embedded image inside the 2017 homepage file Abode-Horror-Adventure-Indie-Game-New.svg. The visit-store lettering on that SVG is not included."
+      },
       "on_2018_homepage": true,
       "platforms": [],
       "links": [
@@ -127,6 +151,12 @@
       "id": "monster-jump",
       "name": "Monster Jump",
       "summary": "Put your gaming skills and reflexes to an almost impossible trial of exhilarated Jumping.",
+      "memory": "Our attempt at a fun-filled, quick-finger game.",
+      "thumbnail": {
+        "src": "assets/games/monster-jump.png",
+        "alt": "Monster Jump title artwork",
+        "provenance": "2017 homepage file MJ_Website_Title.png"
+      },
       "gameplay_note": "Help your beloved monsters Jump through these nifty and tricky levels and put your gaming expertise and reflexes to an almost incredible test of exhilarated Jumping.",
       "on_2018_homepage": true,
       "platforms": [
@@ -172,6 +202,11 @@
       "id": "boom",
       "name": "Boom",
       "summary": "A squad of kickass kids takes on a robot invasion shoot 'em up style.",
+      "thumbnail": {
+        "src": "assets/games/boom.png",
+        "alt": "Boom title artwork",
+        "provenance": "2017 homepage file BOOM_Website.png"
+      },
       "gameplay_note": "Exciting characters, Mechanical enemies, Epic bosses and Spectacular explosions. So who's ace? You are!",
       "on_2018_homepage": true,
       "platforms": [
@@ -206,6 +241,7 @@
       "id": "johnny-ace",
       "name": "Johnny Ace",
       "summary": "iPhone and iPad game by Sweet Pixel Studios. The store listing title is Johnny Ace: The Hilarious, Intense & Deadly.",
+      "thumbnail": null,
       "on_2018_homepage": false,
       "platforms": [
         "iPhone",
@@ -239,49 +275,77 @@
       "role": "creative guru",
       "fuller_name": "Usman Khan",
       "filename_role": "Founder",
-      "filename": "Usman-Khan-Founder-Sweet-Pixel-Studio.svg"
+      "filename": "Usman-Khan-Founder-Sweet-Pixel-Studio.svg",
+      "portrait": {
+        "src": "assets/people/usman.svg",
+        "provenance": "2017 About page file Usman-Khan-Founder-Sweet-Pixel-Studio.svg"
+      }
     },
     {
       "short": "MAT",
       "role": "3d wizard",
       "fuller_name": "Mateen Khalil",
       "filename_role": "Animator",
-      "filename": "Mateen-Khalil-Animator-Sweet-Pixel-Studio.svg"
+      "filename": "Mateen-Khalil-Animator-Sweet-Pixel-Studio.svg",
+      "portrait": {
+        "src": "assets/people/mat.svg",
+        "provenance": "2017 About page file Mateen-Khalil-Animator-Sweet-Pixel-Studio.svg"
+      }
     },
     {
       "short": "ALI",
       "role": "back-end specialist",
       "fuller_name": "Ali Raza",
       "filename_role": "Software Lead",
-      "filename": "Ali-Raza-Software-Lead-Sweet-Pixel-Studio.svg"
+      "filename": "Ali-Raza-Software-Lead-Sweet-Pixel-Studio.svg",
+      "portrait": {
+        "src": "assets/people/ali.svg",
+        "provenance": "2017 About page file Ali-Raza-Software-Lead-Sweet-Pixel-Studio.svg"
+      }
     },
     {
       "short": "MUBBASHER",
       "role": "biz dev",
       "fuller_name": "Mubbasher Khanzada",
       "filename_role": null,
-      "filename": "Mubbasher-Khanzada-Sweet-Pixel-Studio.svg"
+      "filename": "Mubbasher-Khanzada-Sweet-Pixel-Studio.svg",
+      "portrait": {
+        "src": "assets/people/mubbasher.svg",
+        "provenance": "2017 About page file Mubbasher-Khanzada-Sweet-Pixel-Studio.svg"
+      }
     },
     {
       "short": "HASEEB",
       "role": "mr. artist",
       "fuller_name": "Haseeb Khan",
       "filename_role": "Artist",
-      "filename": "Haseeb-Khan-Artist-Sweet-Pixel-Studio.svg"
+      "filename": "Haseeb-Khan-Artist-Sweet-Pixel-Studio.svg",
+      "portrait": {
+        "src": "assets/people/haseeb.svg",
+        "provenance": "2017 About page file Haseeb-Khan-Artist-Sweet-Pixel-Studio.svg"
+      }
     },
     {
       "short": "SHAH",
       "role": "game engineer",
       "fuller_name": null,
       "filename_role": null,
-      "filename": "Unity-3D-Sweet-Pixel-Studio.svg"
+      "filename": "Unity-3D-Sweet-Pixel-Studio.svg",
+      "portrait": {
+        "src": "assets/people/shah.svg",
+        "provenance": "2017 About page file Unity-3D-Sweet-Pixel-Studio.svg"
+      }
     },
     {
       "short": "IMRAN",
       "role": "jnr engineer",
       "fuller_name": null,
       "filename_role": null,
-      "filename": "Engineer-Sweet-Pixel-Studio.svg"
+      "filename": "Engineer-Sweet-Pixel-Studio.svg",
+      "portrait": {
+        "src": "assets/people/imran.svg",
+        "provenance": "2017 About page file Engineer-Sweet-Pixel-Studio.svg"
+      }
     },
     {
       "short": "SAYYAM",
@@ -289,6 +353,7 @@
       "fuller_name": "Malik Sayyam",
       "filename_role": null,
       "filename": null,
+      "portrait": null,
       "source": "Named Sayyam in the 2014 README, which links github.com/mmsayyam. That profile name is Malik Sayyam. The 2017 About page did not print a role."
     },
     {
@@ -297,6 +362,7 @@
       "fuller_name": "Mubassir Hayat",
       "filename_role": null,
       "filename": null,
+      "portrait": null,
       "source": "Named in the 2014 README, which links github.com/mubassirhayat. Distinct from Mubbasher Khanzada. The 2017 About page did not print a role."
     }
   ],
@@ -304,7 +370,9 @@
   "do_not_copy": [
     "Mailchimp subscribe form from the 2017 homepage",
     "Google Analytics snippets from the 2014 and 2017 pages",
-    "Sticker art, banners, and font files from either site",
+    "Sweet-Deadpool.svg and Playstation-Icons.png, which are third-party marks",
+    "The rest of the sticker sheet, until a specific sticker is asked for",
+    "Font files from either site",
     "Commented embed of Honest Game Trailers on the Monster Jump and Boom pages",
     "Empty press-kit anchors (href is blank on both game pages)"
   ],
@@ -323,7 +391,9 @@
     ],
     "show_link_when": "live_button is true",
     "hide_stores_when": "live_button is false",
-    "credits_render": "All nine credits, short name and role, in catalog order. Sayyam and Mubassir Hayat are included. Johnny Ace is not a credit.",
+    "credits_render": "All nine credits, short name and role, in catalog order. Sayyam and Mubassir Hayat are included. Johnny Ace is not a credit. Render portrait.src for the seven About-page portraits. Sayyam and Mubassir have none.",
+    "thumbnails": "Render wall thumbnail.src and thumbnail.alt when thumbnail is an object. Paths stay under assets/ and are copied into the build. Do not hotlink. Johnny Ace's thumbnail is null.",
+    "voice": "The studio shut down in 2014. Render status_line, archive_heading, hero_kicker, hero_footer, and art_caption. Render wall memory when it is set, and still render summary. Boom and Johnny Ace have no memory. Do not render the hiring invitation. Credits stay a quiet roll call: short name and role only.",
     "network_file": "content/network-observations.json",
     "network_must_not_fail_the_build": true
   }
