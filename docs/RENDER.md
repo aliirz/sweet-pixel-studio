@@ -28,7 +28,9 @@ Johnny Ace is the fifth game card. Do not also render that name as a person. The
 
 ## Page
 
-The homepage title is SWEET PIXEL STUDIO. The studio is inactive. Render `status_line`, `archive_heading`, `hero_footer`, and `art_caption` from the catalog. Keep the blurb and the quote as words the studio used then. Do not render the hiring invitation.
+The homepage title is SWEET PIXEL STUDIO. The studio shut down in 2014. Render `status_line`, `archive_heading`, `hero_kicker`, `hero_footer`, and `art_caption` from the catalog. Keep the blurb and the quote as words the studio used then. Do not render the hiring invitation.
+
+When a wall entry has `memory`, render it above `summary`. Boom and Johnny Ace have no memory. Credits stay a quiet roll call: short name and role only, with no story sentence.
 
 Render `thumbnail.src` and `thumbnail.alt` on a wall card when `thumbnail` is an object. Copy the file from `web/` into the build. Do not hotlink. Johnny Ace has no thumbnail, so that card keeps the geometric stand-in.
 

@@ -34,7 +34,11 @@ The Boom page names Android, iPad, and iPhone, and links `com.sps.boom` and App 
 
 The 2017 homepage posted a Mailchimp form and the 2014 and 2017 pages loaded Google Analytics. This catalog names that fact and does not copy the endpoints or the identifiers.
 
-On 2026-10-20 Ali asked the tribute to reuse the studio assets and the game thumbnails, and to speak in the past tense because the studio is not active.
+On 2026-10-20 Ali asked the tribute to reuse the studio assets and the game thumbnails, and to speak in the past tense because the studio is not active. Later that day he said the studio shut down in 2014. It was a passion project that did not fan out, and the team moved on and disbanded. He called that "end of the beginning."
+
+His memories, in his words and then lightly cleaned for the page: Pixel Fall was the first game, a magical experience to build and launch. He wrote Abode's story during a class, and the team spent 48 hours finishing it and slept in the office. Monster Jump was an attempt at a fun-filled, quick-finger game. He kept the lemonade line and asked for a quiet roll call. He did not give a Boom line, a Johnny Ace line, a start year, or a city.
+
+The Monster Jump and Boom pages on the public site are the 2017 and 2018 captures. The page uses his year.
 
 Copied into `web/assets/`:
 

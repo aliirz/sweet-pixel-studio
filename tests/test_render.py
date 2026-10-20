@@ -75,6 +75,8 @@ class TributeTests(unittest.TestCase):
         rows = self.section('credit-wall').all('li')
         pairs = [(row.all('h3')[0].text(),row.all('p')[0].text()) for row in rows]
         self.assertEqual(pairs, [('USMAN','creative guru'),('MAT','3d wizard'),('ALI','back-end specialist'),('MUBBASHER','biz dev'),('HASEEB','mr. artist'),('SHAH','game engineer'),('IMRAN','jnr engineer'),('SAYYAM','2014 website'),('MUBASSIR','2014 website')])
+        for row in rows:
+            self.assertEqual(len(row.all('p')), 1)
         self.assertNotIn('Johnny Ace', self.section('credit-wall').text())
         for name in self.catalog['withheld']:
             self.assertNotIn(name['name'], self.page.text())
@@ -125,8 +127,16 @@ class TributeTests(unittest.TestCase):
         self.assertIn(studio['status_line'], self.section('main').text())
         archive_heading = self.section('archive').all('h2')[0].text()
         self.assertEqual(archive_heading, studio['archive_heading'])
+        self.assertIn(studio['hero_kicker'], self.html)
         self.assertIn(studio['hero_footer'], self.html)
         self.assertIn(studio['art_caption'], self.html)
+        self.assertNotIn('Once upon a time.', self.html)
+        self.assertNotIn(studio['story_source'], self.html)
+        for game in self.catalog['wall']:
+            article = next(n for n in self.page.all('article') if n.attrs.get('data-game') == game['id'])
+            memories = [n.text() for n in article.all('p') if n.attrs.get('class') == 'memory']
+            self.assertIn(game['summary'], article.text())
+            self.assertEqual(memories, [game['memory']] if game.get('memory') else [])
         self.assertNotIn(studio['invitation'], self.html)
         for banned in ['always in play', 'still a scrappy clan', 'new graphic studies', 'sweet-deadpool', 'playstation-icons']:
             self.assertNotIn(banned, self.html.lower())
