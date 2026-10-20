@@ -21,8 +21,9 @@ There is no game, no Mailchimp form, no analytics, and no copied art in this com
 2. Abode
 3. Monster Jump
 4. Boom
+5. Johnny Ace
 
-Shootman Runner and Zama Truck are trailers, not wall games. Sayyam, Mubassir Hayat, and Johnny Ace are recorded under `withheld` and stay off the credit wall.
+Shootman Runner and Zama Truck are trailers, not wall games. Johnny Ace is a studio game, not a teammate. Sayyam and Mubassir Hayat are on the credit wall. The withheld list is empty.
 
 Store buttons stay off. The store pages checked on 2026-10-20 returned 404. Abode still links to GameJolt. Trailer buttons stay on where the oembed check returned 200.
 

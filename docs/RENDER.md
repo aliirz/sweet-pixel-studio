@@ -1,10 +1,10 @@
 # Render contract
 
-Read `content/catalog.json`. Do not invent a fifth wall game or an eighth credit.
+Read `content/catalog.json`. Do not invent a sixth wall game or a tenth credit.
 
 ## Game wall
 
-Render `wall` in `order`. The names are Pixel Fall, Abode, Monster Jump, and Boom, once each.
+Render `wall` in `order`. The names are Pixel Fall, Abode, Monster Jump, Boom, and Johnny Ace, once each.
 
 The uniqueness and order check targets this wall. Shootman Runner and Zama Truck are in `trailers` and may appear in a trailer row. Their names on that row are not a wall failure.
 
@@ -22,7 +22,9 @@ Render a link only when `live_button` is true.
 
 ## Credits
 
-Render each credit's `short` name and `role`, in catalog order, and nobody else. Fuller names and filenames are provenance. Withheld names stay off the page.
+Render all nine credits: each `short` name and `role`, in catalog order. That includes Sayyam and Mubassir Hayat. Fuller names and filenames are provenance.
+
+Johnny Ace is the fifth game card. Do not also render that name as a person. The withheld list is empty.
 
 ## Page
 

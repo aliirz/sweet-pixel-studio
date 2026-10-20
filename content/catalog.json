@@ -200,6 +200,21 @@
         "SolarSaleem",
         "NitroNaomi"
       ]
+    },
+    {
+      "order": 5,
+      "id": "johnny-ace",
+      "name": "Johnny Ace",
+      "summary": "iPhone and iPad game by Sweet Pixel Studios. The store listing title is Johnny Ace: The Hilarious, Intense & Deadly.",
+      "on_2018_homepage": false,
+      "platforms": [
+        "iPhone",
+        "iPad"
+      ],
+      "links": [],
+      "stores": [],
+      "listing": "https://appstor.io/app/johnny-ace-hilarious-intense-deadly",
+      "note": "A studio game, not a teammate. No live store id was found on 2026-10-20, so the card has no store button."
     }
   ],
   "trailers": [
@@ -267,25 +282,25 @@
       "fuller_name": null,
       "filename_role": null,
       "filename": "Engineer-Sweet-Pixel-Studio.svg"
-    }
-  ],
-  "withheld": [
-    {
-      "name": "Sayyam",
-      "where": "2014 README, github.com/mmsayyam",
-      "reason": "Named in the 2014 archive README only. Not on the 2017 About page."
     },
     {
-      "name": "Mubassir Hayat",
-      "where": "2014 README, github.com/mubassirhayat",
-      "reason": "Named in the 2014 archive README. Kept separate from Mubbasher Khanzada."
+      "short": "SAYYAM",
+      "role": "2014 website",
+      "fuller_name": "Malik Sayyam",
+      "filename_role": null,
+      "filename": null,
+      "source": "Named Sayyam in the 2014 README, which links github.com/mmsayyam. That profile name is Malik Sayyam. The 2017 About page did not print a role."
     },
     {
-      "name": "Johnny Ace",
-      "where": "Described earlier as a May 2015 Pixel Fall Facebook mention. That post was not opened for this catalog.",
-      "reason": "Not on the 2017 About page."
+      "short": "MUBASSIR",
+      "role": "2014 website",
+      "fuller_name": "Mubassir Hayat",
+      "filename_role": null,
+      "filename": null,
+      "source": "Named in the 2014 README, which links github.com/mubassirhayat. Distinct from Mubbasher Khanzada. The 2017 About page did not print a role."
     }
   ],
+  "withheld": [],
   "do_not_copy": [
     "Mailchimp subscribe form from the 2017 homepage",
     "Google Analytics snippets from the 2014 and 2017 pages",
@@ -298,16 +313,17 @@
       "Pixel Fall",
       "Abode",
       "Monster Jump",
-      "Boom"
+      "Boom",
+      "Johnny Ace"
     ],
-    "wall_test_scope": "Assert those four names once each, in that order, on the game wall only.",
+    "wall_test_scope": "Assert those five names once each, in that order, on the game wall only. Johnny Ace is a game card, not a credit.",
     "names_allowed_outside_wall": [
       "Shootman Runner",
       "Zama Truck"
     ],
     "show_link_when": "live_button is true",
     "hide_stores_when": "live_button is false",
-    "credits_render": "short name and on-page role only",
+    "credits_render": "All nine credits, short name and role, in catalog order. Sayyam and Mubassir Hayat are included. Johnny Ace is not a credit.",
     "network_file": "content/network-observations.json",
     "network_must_not_fail_the_build": true
   }

@@ -8,7 +8,7 @@ Repository: https://github.com/aliirz/SweetPixelStudios
 
 Commit `d7bb3f727126966ab279b1e24aecc1318c989a85`, 2014-11-29, message "building". Homepage field `http://www.sweetpixelstudios.com`. The page title is "Sweet Pixel Studios". The holding page links Pixel Fall to `com.sps.pxelfall` and App Store id `905884027`. The iTunes slug is `pixelfall-arcade-dodging-game`.
 
-The README names Ali Raza, Mubassir Hayat, and Sayyam. Those two teammates are withheld from the 2017 credit wall.
+The README names Ali Raza, Mubassir Hayat, and Sayyam. Ali asked on 2026-10-20 that nobody stay off the tribute. Sayyam and Mubassir Hayat are credits. The README gives them no job title, so the role line is "2014 website". The linked GitHub profile for Sayyam is named Malik Sayyam. Mubassir Hayat stays distinct from Mubbasher Khanzada.
 
 ## Later site
 
@@ -35,3 +35,7 @@ The Boom page names Android, iPad, and iPhone, and links `com.sps.boom` and App 
 The 2017 homepage posted a Mailchimp form and the 2014 and 2017 pages loaded Google Analytics. This catalog names that fact and does not copy the endpoints or the identifiers.
 
 Sticker art and font files from the captures are not part of this repository.
+
+## Johnny Ace
+
+Johnny Ace is a Sweet Pixel Studios game, not a person in the 2014 README or the 2017 About page. The App Store listing title is "Johnny Ace: The Hilarious, Intense & Deadly". A mirror of that listing is at https://appstor.io/app/johnny-ace-hilarious-intense-deadly, on the developer page https://appstor.io/developers/905884030-sweet-pixel-studios alongside Shootman Runner, Zama Truck, Monster Jump, and Boom. No live store id was found on 2026-10-20, so the card has no store button.
