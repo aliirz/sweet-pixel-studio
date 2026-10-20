@@ -1,0 +1,330 @@
+{
+  "schema": 1,
+  "title": "SWEET PIXEL STUDIO",
+  "milestone": "preserve-and-honor",
+  "playable_games": "deferred",
+  "playable_note": "On 2026-10-20 Ali said to preserve and honor before building new browser games. Do not add a playable Pixel Fall in this milestone.",
+  "archive": {
+    "repository": "https://github.com/aliirz/SweetPixelStudios",
+    "homepage_field": "http://www.sweetpixelstudios.com",
+    "default_branch": "master",
+    "tip_commit": "d7bb3f727126966ab279b1e24aecc1318c989a85",
+    "tip_date": "2014-11-29",
+    "leave_unchanged": true,
+    "page_title": "Sweet Pixel Studios",
+    "meta_description": "an indie mobile game development studio in pakistan"
+  },
+  "later_site": {
+    "host": "sweetpixelstudio.com",
+    "not_in_archive_repo": true,
+    "homepage_title": "SWEET PIXEL STUDIO"
+  },
+  "studio": {
+    "blurb": "We are a small and scrappy clan of creative professionals coming from a broad range of experience and education who share one thing in common: Our sheer love for all things gaming.",
+    "invitation": "Are you also someone who believes that games are an awesome medium to create breathtaking new experieces?",
+    "quote": "WHEN LIFE GIVES YOU LEMONS, MAKE LEMONADE TYCOON",
+    "contact": {
+      "mailto": "hello@sweetpixelstudios.com",
+      "visible_text_on_game_pages": "hello@sweetpixelstudio.com"
+    },
+    "historical_profiles": [
+      {
+        "era": "2017",
+        "name": "Facebook",
+        "url": "https://www.facebook.com/sweetpixelstudio/"
+      },
+      {
+        "era": "2017",
+        "name": "Twitter",
+        "url": "https://twitter.com/sweetpixelstdio"
+      },
+      {
+        "era": "2017",
+        "name": "Instagram",
+        "url": "https://www.instagram.com/sweetpixelstudio/"
+      },
+      {
+        "era": "2017",
+        "name": "Tumblr",
+        "url": "https://sweetpixelstudio.tumblr.com/"
+      },
+      {
+        "era": "2014",
+        "name": "Facebook",
+        "url": "https://www.facebook.com/SweetPixelStudios"
+      },
+      {
+        "era": "2014",
+        "name": "Twitter",
+        "url": "https://twitter.com/sweetpixlstdios"
+      },
+      {
+        "era": "2014",
+        "name": "Google+",
+        "url": "https://plus.google.com/+Sweetpixelstudios"
+      }
+    ]
+  },
+  "wall": [
+    {
+      "order": 1,
+      "id": "pixel-fall",
+      "name": "Pixel Fall",
+      "source_spellings": [
+        "PixelFall",
+        "pixelfall"
+      ],
+      "summary": "An arcade dodging game for iOS and Android.",
+      "on_2018_homepage": false,
+      "platforms": [
+        "Android",
+        "iPhone"
+      ],
+      "links": [
+        {
+          "kind": "trailer",
+          "label": "Trailer",
+          "url": "https://vimeo.com/107703939",
+          "title": "PixelFall: An Arcade Dodging Game - Trailer",
+          "author": "Usman Khan",
+          "live_button": true
+        }
+      ],
+      "stores": [
+        {
+          "platform": "Android",
+          "id": "com.sps.pxelfall",
+          "url": "https://play.google.com/store/apps/details?id=com.sps.pxelfall",
+          "live_button": false
+        },
+        {
+          "platform": "iOS",
+          "id": "905884027",
+          "url": "https://itunes.apple.com/us/app/pixelfall-arcade-dodging-game/id905884027?ls=1&mt=8",
+          "live_button": false
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "id": "abode",
+      "name": "Abode",
+      "summary": "Horror adventure. The 2017 navigation called it Our Game.",
+      "on_2018_homepage": true,
+      "platforms": [],
+      "links": [
+        {
+          "kind": "game",
+          "label": "GameJolt",
+          "url": "https://gamejolt.com/games/abode/177072",
+          "live_button": true
+        }
+      ],
+      "stores": []
+    },
+    {
+      "order": 3,
+      "id": "monster-jump",
+      "name": "Monster Jump",
+      "summary": "Put your gaming skills and reflexes to an almost impossible trial of exhilarated Jumping.",
+      "gameplay_note": "Help your beloved monsters Jump through these nifty and tricky levels and put your gaming expertise and reflexes to an almost incredible test of exhilarated Jumping.",
+      "on_2018_homepage": true,
+      "platforms": [
+        "Android",
+        "Apple TV",
+        "iPad",
+        "iPhone"
+      ],
+      "page_path": "/monsterjump/",
+      "links": [
+        {
+          "kind": "trailer",
+          "label": "Gameplay trailer",
+          "url": "https://www.youtube.com/watch?v=ETyCHI4xriM",
+          "title": "Monster Jump - Arcade Platformer  - Gameplay Trailer (By Sweet Pixel Studio)",
+          "live_button": true
+        },
+        {
+          "kind": "trailer",
+          "label": "Launch trailer",
+          "url": "https://www.youtube.com/watch?v=wGrkiU2ifCE",
+          "title": "Monster Jump - Mobile Arcade Game - Gameplay Launch Trailer (By Sweet Pixel Studio)",
+          "live_button": true
+        }
+      ],
+      "stores": [
+        {
+          "platform": "Android",
+          "id": "com.sps.monsterjump",
+          "url": "https://play.google.com/store/apps/details?id=com.sps.monsterjump",
+          "live_button": false
+        },
+        {
+          "platform": "iOS",
+          "id": "1184881974",
+          "url": "https://itunes.apple.com/app/id1184881974",
+          "live_button": false
+        }
+      ]
+    },
+    {
+      "order": 4,
+      "id": "boom",
+      "name": "Boom",
+      "summary": "A squad of kickass kids takes on a robot invasion shoot 'em up style.",
+      "gameplay_note": "Exciting characters, Mechanical enemies, Epic bosses and Spectacular explosions. So who's ace? You are!",
+      "on_2018_homepage": true,
+      "platforms": [
+        "Android",
+        "iPad",
+        "iPhone"
+      ],
+      "page_path": "/boom/",
+      "links": [],
+      "stores": [
+        {
+          "platform": "Android",
+          "id": "com.sps.boom",
+          "url": "https://play.google.com/store/apps/details?id=com.sps.boom",
+          "live_button": false
+        },
+        {
+          "platform": "iOS",
+          "id": "1184904558",
+          "url": "https://itunes.apple.com/us/app/id1184904558",
+          "live_button": false
+        }
+      ],
+      "character_filenames": [
+        "LazerLeny",
+        "SolarSaleem",
+        "NitroNaomi"
+      ]
+    },
+    {
+      "order": 5,
+      "id": "johnny-ace",
+      "name": "Johnny Ace",
+      "summary": "iPhone and iPad game by Sweet Pixel Studios. The store listing title is Johnny Ace: The Hilarious, Intense & Deadly.",
+      "on_2018_homepage": false,
+      "platforms": [
+        "iPhone",
+        "iPad"
+      ],
+      "links": [],
+      "stores": [],
+      "listing": "https://appstor.io/app/johnny-ace-hilarious-intense-deadly",
+      "note": "A studio game, not a teammate. No live store id was found on 2026-10-20, so the card has no store button."
+    }
+  ],
+  "trailers": [
+    {
+      "name": "Shootman Runner",
+      "on_wall": false,
+      "url": "https://www.youtube.com/watch?v=UXsLiPSndO4",
+      "title": "Shootman Runner - Endless Bird Hunting | iOS and Android Game | Sweet Pixel Studio",
+      "live_button": true
+    },
+    {
+      "name": "Zama Truck",
+      "on_wall": false,
+      "url": "https://www.youtube.com/watch?v=YENq52mEgns",
+      "title": "Zama Truck - Pashto Songs and Endless Truck Driving | Mobile Game | Pakistan | Sweet Pixel Studio",
+      "live_button": true
+    }
+  ],
+  "credits": [
+    {
+      "short": "USMAN",
+      "role": "creative guru",
+      "fuller_name": "Usman Khan",
+      "filename_role": "Founder",
+      "filename": "Usman-Khan-Founder-Sweet-Pixel-Studio.svg"
+    },
+    {
+      "short": "MAT",
+      "role": "3d wizard",
+      "fuller_name": "Mateen Khalil",
+      "filename_role": "Animator",
+      "filename": "Mateen-Khalil-Animator-Sweet-Pixel-Studio.svg"
+    },
+    {
+      "short": "ALI",
+      "role": "back-end specialist",
+      "fuller_name": "Ali Raza",
+      "filename_role": "Software Lead",
+      "filename": "Ali-Raza-Software-Lead-Sweet-Pixel-Studio.svg"
+    },
+    {
+      "short": "MUBBASHER",
+      "role": "biz dev",
+      "fuller_name": "Mubbasher Khanzada",
+      "filename_role": null,
+      "filename": "Mubbasher-Khanzada-Sweet-Pixel-Studio.svg"
+    },
+    {
+      "short": "HASEEB",
+      "role": "mr. artist",
+      "fuller_name": "Haseeb Khan",
+      "filename_role": "Artist",
+      "filename": "Haseeb-Khan-Artist-Sweet-Pixel-Studio.svg"
+    },
+    {
+      "short": "SHAH",
+      "role": "game engineer",
+      "fuller_name": null,
+      "filename_role": null,
+      "filename": "Unity-3D-Sweet-Pixel-Studio.svg"
+    },
+    {
+      "short": "IMRAN",
+      "role": "jnr engineer",
+      "fuller_name": null,
+      "filename_role": null,
+      "filename": "Engineer-Sweet-Pixel-Studio.svg"
+    },
+    {
+      "short": "SAYYAM",
+      "role": "2014 website",
+      "fuller_name": "Malik Sayyam",
+      "filename_role": null,
+      "filename": null,
+      "source": "Named Sayyam in the 2014 README, which links github.com/mmsayyam. That profile name is Malik Sayyam. The 2017 About page did not print a role."
+    },
+    {
+      "short": "MUBASSIR",
+      "role": "2014 website",
+      "fuller_name": "Mubassir Hayat",
+      "filename_role": null,
+      "filename": null,
+      "source": "Named in the 2014 README, which links github.com/mubassirhayat. Distinct from Mubbasher Khanzada. The 2017 About page did not print a role."
+    }
+  ],
+  "withheld": [],
+  "do_not_copy": [
+    "Mailchimp subscribe form from the 2017 homepage",
+    "Google Analytics snippets from the 2014 and 2017 pages",
+    "Sticker art, banners, and font files from either site",
+    "Commented embed of Honest Game Trailers on the Monster Jump and Boom pages",
+    "Empty press-kit anchors (href is blank on both game pages)"
+  ],
+  "render": {
+    "wall_names_in_order": [
+      "Pixel Fall",
+      "Abode",
+      "Monster Jump",
+      "Boom",
+      "Johnny Ace"
+    ],
+    "wall_test_scope": "Assert those five names once each, in that order, on the game wall only. Johnny Ace is a game card, not a credit.",
+    "names_allowed_outside_wall": [
+      "Shootman Runner",
+      "Zama Truck"
+    ],
+    "show_link_when": "live_button is true",
+    "hide_stores_when": "live_button is false",
+    "credits_render": "All nine credits, short name and role, in catalog order. Sayyam and Mubassir Hayat are included. Johnny Ace is not a credit.",
+    "network_file": "content/network-observations.json",
+    "network_must_not_fail_the_build": true
+  }
+}
