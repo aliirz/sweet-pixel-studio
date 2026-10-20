@@ -45,3 +45,7 @@ Open `http://localhost:4173`. `npm run build` generates `dist/index.html`, `dist
 The offline suite checks the actual generated HTML: wall order/uniqueness, exact credit names and roles, allowed game and trailer links, hidden store IDs, catalogued platform labels, studio blurb and quote, preservation scope and navigation. Network observations do not enter the build. Pixel Fall gameplay and tests remain deferred.
 
 For visual acceptance, check at 390px and 1280px: headings, wall cards and credit rows fit without horizontal scrolling; navigation and every external link are usable by keyboard; the separate trailer row does not look like additional wall games. Hosting preview is private and does not replace the historic domain.
+
+## Published site
+
+Pushes to `main` run `npm test` and publish `dist/` to [aliirz.github.io/sweet-pixel-studio](https://aliirz.github.io/sweet-pixel-studio/). Asset paths stay relative, so the page works from that project path. sweetpixelstudio.com still serves the 2018 site and is not pointed here.
