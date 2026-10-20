@@ -1,0 +1,72 @@
+{
+  "checked_on": "2026-10-20",
+  "method": "HTTP GET. Store and GameJolt checks used the historical URL. Video checks used the oembed endpoint, not the watch page.",
+  "note": "This file is a record. An upstream outage or a later status change must not fail a correct tribute build. Update this file when rechecking. Do not change live_button in catalog.json because of a transient failure.",
+  "observations": [
+    {
+      "purpose": "pixel-fall android",
+      "url": "https://play.google.com/store/apps/details?id=com.sps.pxelfall",
+      "status": 404
+    },
+    {
+      "purpose": "pixel-fall ios",
+      "url": "https://itunes.apple.com/us/app/pixelfall-arcade-dodging-game/id905884027?ls=1&mt=8",
+      "status": 404
+    },
+    {
+      "purpose": "abode gamejolt",
+      "url": "https://gamejolt.com/games/abode/177072",
+      "status": 200
+    },
+    {
+      "purpose": "monster-jump android",
+      "url": "https://play.google.com/store/apps/details?id=com.sps.monsterjump",
+      "status": 404
+    },
+    {
+      "purpose": "monster-jump ios",
+      "url": "https://itunes.apple.com/app/id1184881974",
+      "status": 404
+    },
+    {
+      "purpose": "boom android",
+      "url": "https://play.google.com/store/apps/details?id=com.sps.boom",
+      "status": 404
+    },
+    {
+      "purpose": "boom ios",
+      "url": "https://itunes.apple.com/us/app/id1184904558",
+      "status": 404
+    },
+    {
+      "purpose": "pixel-fall trailer oembed",
+      "url": "https://vimeo.com/api/oembed.json?url=https://vimeo.com/107703939",
+      "status": 200
+    },
+    {
+      "purpose": "monster-jump gameplay trailer oembed",
+      "url": "https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=ETyCHI4xriM&format=json",
+      "status": 200
+    },
+    {
+      "purpose": "monster-jump launch trailer oembed",
+      "url": "https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=wGrkiU2ifCE&format=json",
+      "status": 200
+    },
+    {
+      "purpose": "shootman runner oembed",
+      "url": "https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=UXsLiPSndO4&format=json",
+      "status": 200
+    },
+    {
+      "purpose": "zama truck oembed",
+      "url": "https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=YENq52mEgns&format=json",
+      "status": 200
+    },
+    {
+      "purpose": "studio tumblr",
+      "url": "https://sweetpixelstudio.tumblr.com/",
+      "status": 429
+    }
+  ]
+}
